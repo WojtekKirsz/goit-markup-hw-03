@@ -50,22 +50,24 @@
                 </div>
 
                 <div class="contact-main">
-                    <a class="contact display-links email" href="mailto:info@devstudio.com"
+                    <a class="contact-header display-links email" href="mailto:info@devstudio.com"
                         >info@devstudio.com</a
                     >
-                    <a class="contact display-links" href="tel:+48111111111">+48 111 111 111</a>
+                    <a class="contact-header display-links phone" href="tel:+48111111111"
+                        >+48 111 111 111</a
+                    >
                 </div>
             </header>
 
             <main>
-                <section>
+                <section class="main-header-wrapper">
                     <div class="main-header">
                         <h1 class="big-title">Efektywne rozwiązania dla waszego biznesu</h1>
                         <button type="button" class="button-order">Zamów usługę</button>
                     </div>
                 </section>
 
-                <section>
+                <section class="list-wrapper">
                     <ul class="list">
                         <li>
                             <h3 class="lorem-impsum-header">Lorem Ipsum</h3>
@@ -98,102 +100,94 @@
                     </ul>
                 </section>
 
-                <section>
+                <section class="main-business-wrapper">
                     <h2 class="main-business">Czym się zajmujemy</h2>
-                    <ul class="list">
-                        <li>
-                            <figure>
-                                <img
-                                    alt="designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones"
-                                    width="370"
-                                    height="294"
-                                    src="images/img-1.jpg"
-                                />
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="creative-artist-web-design-with-working-colour-selection-graphic-tablet"
-                                    width="370"
-                                    height="294"
-                                    src="images/img-2.jpg"
-                                />
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones"
-                                    width="370"
-                                    height="294"
-                                    src="images/img-3.jpg"
-                                />
-                            </figure>
-                        </li>
-                    </ul>
+                    <div class="flex-3">
+                        <picture>
+                            <img
+                                alt="designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones"
+                                width="370"
+                                height="294"
+                                src="images/img-1.jpg"
+                            />
+                        </picture>
+
+                        <picture>
+                            <img
+                                alt="creative-artist-web-design-with-working-colour-selection-graphic-tablet"
+                                width="370"
+                                height="294"
+                                src="images/img-2.jpg"
+                            />
+                        </picture>
+
+                        <picture>
+                            <img
+                                alt="designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones"
+                                width="370"
+                                height="294"
+                                src="images/img-3.jpg"
+                            />
+                        </picture>
+                    </div>
                 </section>
 
-                <section>
+                <section class="team-header-wrapper">
                     <h2 class="team-header">Nasz zespół</h2>
-                    <ul class="list">
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Product Designer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-4.jpg"
-                                />
-                            </figure>
-                            <figcaption>
+
+                    <div class="flex-4">
+                        <picture>
+                            <img
+                                alt="Product Designer"
+                                width="270"
+                                height="260"
+                                src="images/img-4.jpg"
+                            />
+                            <div class="team-player-wrapper">
                                 <h3 class="team-player">John Doe</h3>
                                 <p class="team-role">Product Designer</p>
-                            </figcaption>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Frontend Developer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-5.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="team-player">John Doe</h3>
-                                    <p class="team-role">Frontend Developer</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Frontend Developer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-6.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="team-player">John Doe</h3>
-                                    <p class="team-role">Marketing</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="UI Designer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-7.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="team-player">John Doe</h3>
-                                    <p class="team-role">UI Designer</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                    </ul>
+                            </div>
+                        </picture>
+
+                        <picture>
+                            <img
+                                alt="Frontend Developer"
+                                width="270"
+                                height="260"
+                                src="images/img-5.jpg"
+                            />
+                            <div class="team-player-wrapper">
+                                <h3 class="team-player">John Doe</h3>
+                                <p class="team-role">Frontend Developer</p>
+                            </div>
+                        </picture>
+
+                        <picture>
+                            <img
+                                alt="Frontend Developer"
+                                width="270"
+                                height="260"
+                                src="images/img-6.jpg"
+                            />
+                            <div class="team-player-wrapper">
+                                <h3 class="team-player">John Doe</h3>
+                                <p class="team-role">Marketing</p>
+                            </div>
+                        </picture>
+
+                        <picture>
+                            <img
+                                alt="UI Designer"
+                                width="270"
+                                height="260"
+                                src="images/img-7.jpg"
+                            />
+                            <div class="team-player-wrapper">
+                                <h3 class="team-player">John Doe</h3>
+                                <p class="team-role">UI Designer</p>
+                            </div>
+                        </picture>
+                    </div>
                 </section>
             </main>
 
@@ -202,16 +196,27 @@
                     ><span class="blue-font">Web</span><span class="white-font">Studio</span></a
                 >
                 <address class="address">
-                    <a
-                        href="https://goo.gl/maps/4ub1VhQaPMGV6A3t7"
-                        target="_blank"
-                        class="links-format"
-                        ><span class="direct-address">m. Warszawa, Aleje Jerozolimskie 21</span></a
-                    >
-                    <a class="contact display-links" href="mailto:info@example.com"
-                        >info@example.com</a
-                    >
-                    <a class="contact display-links" href="tel:+48111111111">+48 111 111 111</a>
+                    <div class="address-wrapper">
+                        <a
+                            href="https://goo.gl/maps/4ub1VhQaPMGV6A3t7"
+                            target="_blank"
+                            class="links-format"
+                            ><span class="direct-address"
+                                >m. Warszawa, Aleje Jerozolimskie 21</span
+                            ></a
+                        >
+                    </div>
+
+                    <div class="email-wrapper">
+                        <a class="contact-footer display-links" href="mailto:info@example.com"
+                            >info@example.com</a
+                        >
+                    </div>
+                    <div class="phone-wrapper">
+                        <a class="contact-footer display-links" href="tel:+48111111111"
+                            >+48 111 111 111</a
+                        >
+                    </div>
                 </address>
             </footer>
         </div>

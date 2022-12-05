@@ -9,12 +9,17 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
 .header-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
     display: flex;
+    padding-left: 215px;
+    padding-right: 227px;
+    padding-bottom: 25px;
 }
 
 .logo-header {
@@ -23,14 +28,26 @@ body {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 3%;
-    margin-top: 24px;
-    margin-right: 93px;
-    margin-bottom: 25px;
+    padding-top: 24px;
+    padding-right: 93px;
 }
 
 .list {
     list-style: none;
     display: flex;
+}
+
+.flex-3 {
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.flex-4 {
+    padding-right: 215px;
+    padding-left: 215px;
+    display: flex;
+    gap: 30px;
 }
 
 .first-second-nav {
@@ -47,11 +64,14 @@ body {
     --background-black-color: #2f303a;
 }
 
-.main-header {
+.main-header-wrapper {
     background: var(--background-black-color);
-    text-align: center;
-    width: 1200px;
+    width: 1600px;
     height: 600px;
+}
+
+.main-header {
+    text-align: center;
 }
 
 .big-title {
@@ -65,8 +85,8 @@ body {
     color: var(--standard-white);
     padding-top: 200px;
     padding-bottom: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
+    padding-left: 452px;
+    padding-right: 452px;
 }
 
 .portfolio-header {
@@ -82,6 +102,7 @@ body {
     line-height: 1.14;
     letter-spacing: 3%;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
 .lorem-wording {
@@ -89,6 +110,20 @@ body {
     line-height: 1.71;
     letter-spacing: 3%;
     color: var(--light-grey);
+    padding-right: 30px;
+}
+
+.main-portfolio-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-business-wrapper {
+    padding: 94px 215px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .main-business {
@@ -97,6 +132,21 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 3%;
+    max-width: 1200px;
+}
+
+.team-header-wrapper {
+    width: 1600px;
+    height: 648px;
+    background: var(--background-button-color);
+}
+
+.list-wrapper {
+    padding-top: 94px;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-bottom: 50px;
+    gap: 8px;
 }
 
 .team-header {
@@ -105,6 +155,17 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 3%;
+    padding-top: 94px;
+    padding-left: 695px;
+    padding-right: 695px;
+    padding-bottom: 50px;
+}
+
+.team-player-wrapper {
+    width: 270px;
+    height: 108px;
+    padding-top: 30px;
+    background: var(--standard-white);
 }
 
 .team-player {
@@ -121,6 +182,7 @@ body {
     text-align: center;
     letter-spacing: 3%;
     color: var(--light-grey);
+    padding-top: 10px;
 }
 
 .portfolio-title {
@@ -147,16 +209,12 @@ body {
     font-weight: 500;
     line-height: 1.17;
     letter-spacing: 2%;
-    margin-top: 32px;
+    padding-top: 32px;
 }
 
 .links-format {
     text-decoration: none;
     color: var(--standard-black);
-}
-
-.links-format:nth-child(:first) {
-    margin-right: 46px;
 }
 
 .button-order {
@@ -198,6 +256,11 @@ body {
 
 .footer-layout {
     background: var(--background-black-color);
+    max-width: 1600;
+    height: 252px;
+    padding-left: 215px;
+    padding-top: 60px;
+    margin: 0 auto;
 }
 
 .logo-footer {
@@ -213,13 +276,18 @@ body {
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 3%;
+    display: block;
+}
+
+.address-wrapper {
+    padding-top: 20px;
 }
 
 .direct-address {
     color: var(--standard-white);
 }
 
-.contact {
+.contact-header {
     text-decoration: none;
     color: var(--light-grey);
     font-weight: 500;
@@ -228,11 +296,32 @@ body {
     letter-spacing: 2%;
 }
 
+.contact-footer {
+    text-decoration: none;
+    color: var(--light-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2%;
+    display: block;
+}
+
 .contact-main {
-    margin-top: 32px;
+    padding-top: 32px;
+}
+
+.email-wrapper {
+    padding-top: 9px;
+}
+
+.phone-wrapper {
+    padding-top: 9px;
 }
 
 .email {
-    margin-left: 371px;
-    margin-right: 50px;
+    padding-left: 371px;
+}
+
+.phone {
+    padding-left: 50px;
 }
