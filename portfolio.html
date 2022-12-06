@@ -11,16 +11,16 @@
         />
     </head>
     <body>
-        <div class="container">
-            <header class="header-wrapper">
+        <header class="site-nav">
+            <div class="header-wrapper header-container">
+                <!-- LOGO -->
                 <div class="logo-header">
-                    <a href="#"></a><span class="blue-font">Web</span
-                    ><span class="dark-grey">Studio</span>
-                </div>
-
-                <div class="sub-pages">
-                    <nav>
-                        <ul class="list">
+                    <a href="#" class="links-format"
+                        ><span class="blue-font">Web</span><span class="dark-grey">Studio</span></a
+                    >
+                    <!-- AGENCJA, PORTFOLIO, KONTAKT -->
+                    <nav class="sub-pages">
+                        <ul class="list-forsubpages">
                             <li>
                                 <a class="links-format display-links first-second-nav" href="#"
                                     >Agencja</a
@@ -41,19 +41,21 @@
                         </ul>
                     </nav>
                 </div>
-
-                <div class="contact-main">
-                    <a class="contact-header display-links email" href="mailto:info@devstudio.com"
+                <!-- CONTACT DETAILS -->
+                <div>
+                    <a class="contact-header display-links" href="mailto:info@devstudio.com"
                         >info@devstudio.com</a
                     >
                     <a class="contact-header display-links phone" href="tel:+48111111111"
                         >+48 111 111 111</a
                     >
                 </div>
-            </header>
-            <main>
-                <section>
-                    <ul class="list">
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="list-wrapper-portfolio">
+                    <ul class="list-portfolio">
                         <li>
                             <button type="button" class="button-services display-links-buttons">
                                 <a class="test">Wszystkie</a>
@@ -80,135 +82,126 @@
                             </button>
                         </li>
                     </ul>
-                </section>
-                <section>
-                    <div class="main-portfolio-wrapper">
-                        <picture>
-                            <img alt="portfolio1" width="370" height="294" src="images/img-8.jpg" />
-                            <div>
-                                <h3 class="portfolio-header">Technocrack</h3>
-                                <p class="portfolio-title">Strona internetowa</p>
-                            </div>
-                        </picture>
+                </div>
+            </section>
+            <section>
+                <div class="main-portfolio-wrapper">
+                    <picture>
+                        <img alt="portfolio1" width="370" height="294" src="images/img-8.jpg" />
+                        <div class="sub-portfolio-wrapper">
+                            <h3 class="portfolio-header">Technocrack</h3>
+                            <p class="portfolio-title">Strona internetowa</p>
+                        </div>
+                    </picture>
 
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Product Designer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-9.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="portfolio-header">
-                                        Grafika New Orlean vs Golden Star
-                                    </h3>
-                                    <p class="portfolio-title">Dizajn</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Product Designer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-10.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="portfolio-header">Restauracja Seafood</h3>
-                                    <p class="portfolio-title">Aplikacja</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Product Designer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-11.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="portfolio-header">Projekt Prime</h3>
-                                    <p class="portfolio-title">Marketing</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Product Designer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-12.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="portfolio-header">Projekt Boxes</h3>
-                                    <p class="portfolio-title">Aplikacja</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Product Designer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-13.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="portfolio-header">Inspiration has no Borders</h3>
-                                    <p class="portfolio-title">Strona internetowa</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Product Designer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-14.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="portfolio-header">Magazyn Limited Edition</h3>
-                                    <p class="portfolio-title">Dizajn</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Product Designer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-15.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="portfolio-header">Projekt LAB</h3>
-                                    <p class="portfolio-title">Marketing</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img
-                                    alt="Product Designer"
-                                    width="270"
-                                    height="260"
-                                    src="images/img-16.jpg"
-                                />
-                                <figcaption>
-                                    <h3 class="portfolio-header">Growing Business</h3>
-                                    <p class="portfolio-title">Aplikacja</p>
-                                </figcaption>
-                            </figure>
-                        </li>
-                    </div>
-                </section>
-            </main>
-            <footer class="footer-layout">
+                    <picture>
+                        <img
+                            alt="Product Designer"
+                            width="370"
+                            height="294"
+                            src="images/img-9.jpg"
+                        />
+                        <div class="sub-portfolio-wrapper">
+                            <h3 class="portfolio-header">Grafika New Orlean vs Golden Star</h3>
+                            <p class="portfolio-title">Dizajn</p>
+                        </div>
+                    </picture>
+
+                    <picture>
+                        <img
+                            alt="Product Designer"
+                            width="370"
+                            height="294"
+                            src="images/img-10.jpg"
+                        />
+                        <div class="sub-portfolio-wrapper">
+                            <h3 class="portfolio-header">Restauracja Seafood</h3>
+                            <p class="portfolio-title">Aplikacja</p>
+                        </div>
+                    </picture>
+
+                    <picture>
+                        <img
+                            alt="Product Designer"
+                            width="370"
+                            height="290"
+                            src="images/img-11.jpg"
+                        />
+                        <div class="sub-portfolio-wrapper">
+                            <h3 class="portfolio-header">Projekt Prime</h3>
+                            <p class="portfolio-title">Marketing</p>
+                        </div>
+                    </picture>
+
+                    <picture>
+                        <img
+                            alt="Product Designer"
+                            width="370"
+                            height="290"
+                            src="images/img-12.jpg"
+                        />
+                        <div class="sub-portfolio-wrapper">
+                            <h3 class="portfolio-header">Projekt Boxes</h3>
+                            <p class="portfolio-title">Aplikacja</p>
+                        </div>
+                    </picture>
+
+                    <picture>
+                        <img
+                            alt="Product Designer"
+                            width="370"
+                            height="290"
+                            src="images/img-13.jpg"
+                        />
+                        <div class="sub-portfolio-wrapper">
+                            <h3 class="portfolio-header">Inspiration has no Borders</h3>
+                            <p class="portfolio-title">Strona internetowa</p>
+                        </div>
+                    </picture>
+
+                    <picture>
+                        <img
+                            alt="Product Designer"
+                            width="370"
+                            height="294"
+                            src="images/img-14.jpg"
+                        />
+                        <div class="sub-portfolio-wrapper">
+                            <h3 class="portfolio-header">Magazyn Limited Edition</h3>
+                            <p class="portfolio-title">Dizajn</p>
+                        </div>
+                    </picture>
+
+                    <picture>
+                        <img
+                            alt="Product Designer"
+                            width="370"
+                            height="294"
+                            src="images/img-15.jpg"
+                        />
+                        <div class="sub-portfolio-wrapper">
+                            <h3 class="portfolio-header">Projekt LAB</h3>
+                            <p class="portfolio-title">Marketing</p>
+                        </div>
+                    </picture>
+
+                    <picture>
+                        <img
+                            alt="Product Designer"
+                            width="370"
+                            height="294"
+                            src="images/img-16.jpg"
+                        />
+                        <div class="sub-portfolio-wrapper">
+                            <h3 class="portfolio-header">Growing Business</h3>
+                            <p class="portfolio-title">Aplikacja</p>
+                        </div>
+                    </picture>
+                </div>
+            </section>
+        </main>
+        <footer class="footer-layout">
+            <div class="footer-wrapper">
                 <a class="logo-footer" href="#"
                     ><span class="blue-font">Web</span><span class="white-font">Studio</span></a
                 >
@@ -235,7 +228,7 @@
                         >
                     </div>
                 </address>
-            </footer>
-        </div>
+            </div>
+        </footer>
     </body>
 </html>
