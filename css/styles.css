@@ -151,6 +151,12 @@ body {
     border: 1px solid var(--portfolio-grey);
 }
 
+.sub-portfolio {
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .main-business-wrapper {
     padding-bottom: 94px;
 }
@@ -190,11 +196,14 @@ body {
     padding-bottom: 50px;
 }
 
-.team-player-wrapper {
-    width: 270px;
-    height: 108px;
+.team-player-wrapper-2 {
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-player-wrapper {
     background: var(--standard-white);
+    border-radius: 0 0 0 4px;
 }
 
 .team-player {
@@ -286,10 +295,14 @@ body {
 }
 
 .footer-layout {
-    background: var(--background-black-color);
     padding-top: 60px;
     padding-bottom: 60px;
-    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-wrapper {
+    background: var(--background-black-color);
 }
 
 .logo-footer {
